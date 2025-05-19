@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: 'Outfit';
+    background-color: white;
+    color: rgb(23, 12, 121);
+}
+
+nav {
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: .2rem;
+    background-color:  rgb(23, 12, 121);
+    color: white;
+
+}
+
+nav h1 {
+    letter-spacing: .2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.2rem;
+    text-decoration: none;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+nav ul h1 {
+    margin-right: 20rem;
+    margin-left: -10rem;
+
+}
+
+nav ul button {
+    margin-left: 15rem;
+}
+
+nav ul p {
+    text-decoration: none;
+}
+
+nav ul p:hover{
+    color: rgb(255, 106, 0);
+    font-weight: bold;
+    transition-duration: 400ms;
+ 
+}
+nav button{
+    margin-top: 1rem;
+    color: white;
+}
+.wel {
+    color: black;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+}
+.name h3{
+    color: black;
+}
+
+span {
+    color: orangered
+}
+
+.name {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.name h1 {
+    gap: 1rem;
+    font-size: 3rem;
+    
+
+}
+
+.name h3 {
+}
+
+.Me {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+
+.img {
+    margin-top: 5rem;
+    height: 25rem;
+    width: 25rem;
+    margin-left: 10rem;
+}
+
+img {
+
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+button {
+    background-color: orangered;
+    height: 3rem;
+    width: 10rem;
+    font-family: 'Outfit';
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+   border-radius: 5px;
+}
+
+button:hover{
+    color: black;
+    transition-duration: .5s;
+    background-color: white;
+}
+.skill {
+    margin-top: 6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    height: 20rem;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    color: black;
+
+}
+
+.skill h1 {
+    color: black;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.skill p {
+    color:  rgb(23, 12, 121);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 10rem;
+    text-align: center;
+    margin-left: 1.5rem;
+    
+}
+
+.skill p:hover{
+    background: black;
+    color: white;
+    transition-duration: .5s;
+}
+
+.about {
+    margin-top: 15rem;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.abt {
+    text-align: center;
+}
+
+.abt h1 {
+    color: black;
+    font-size: 5rem;
+    letter-spacing: .1rem;
+}
+ .abt h2{
+    margin-top: -2rem;
+ }
+.abt p{
+    color: black;
+    height: 10rem;
+    width: 60rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.title{
+    margin-top: 5rem;
+    justify-content:center;
+    align-items: center;
+}
+.title h1{
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+}
+.project{
+margin-top: 5rem;
+ display: grid;
+ grid-template-columns: 30% 30%;
+ margin-left:23%;
+ gap: 10rem;
+
+}
+
+.edu{
+    height: 25rem;
+    width: 15rem;
+   background-color:  rgb(43, 42, 55);;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.edu h3{
+    font-size: 1.5rem;
+    
+
+}
+.edu p{
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.edu button{
+    margin-top: 3rem;
+    background-color: orangered;
+    color: white;
+}
+ 
+.edu button:hover{
+    background-color: white;
+    color: black;
+    transition-duration: .5s;
+}
